@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      body {
+         background-color: yellow
+      }
+      p {
+         font-size: 20px;
+         color: gold;
+      }
+   </style>
+</head>
+<body>
+   
+</body>
+</html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+</head>
+<body>
+   
+
+   <script>
+      var txt = "Hello World!";
+      function sayHello() {
+         // window.txt refers to the txt variable above
+         document.write(window.txt);
+      }
+      
+      // call sayHello() function using window object
+      window.sayHello();
+   </script>
+</body>
+</html>
